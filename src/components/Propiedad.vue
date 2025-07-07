@@ -41,6 +41,9 @@ defineProps({
             <v-card-text class="text-truncate">
                 {{ propiedad.descripcion }}
             </v-card-text>
+            <v-card-subtitle class="text-truncate">
+                {{ propiedad.direccion }}
+            </v-card-subtitle>
             <v-card-text class="text-h5 font-weight-bold">
                 Precio: {{ price(propiedad.precio) }}
             </v-card-text>
